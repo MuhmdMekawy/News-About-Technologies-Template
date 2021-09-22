@@ -1,0 +1,117 @@
+@media (max-width: 992px) {
+    .header .content{
+    flex-direction: column;
+    gap: 60px;
+    padding-top: 70px;
+    }
+    .header .content .left h1{
+        font-size: 70px;
+    }
+    .header .content .left p{
+        font-size: 20px;
+    }
+    .features .right{
+        padding-top: 60px;
+    }
+    .features .left img{
+        display: none;
+    }
+    .watch .content{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .watch .content .right .last{
+        width: 130px;
+    }
+    .motivate{
+        background: linear-gradient(to right, #414141, #4d4d4d);
+    }
+    .motivate .content{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    .motivate .left img{
+        width: 100%;
+        transform: translate(0);
+    }
+    .motivate .right{
+        transform: translate(0);
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .sport .content{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .series .content{
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+    }
+    .series .right{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .series .right{
+        padding-top: 0;
+    }
+    .new .content .bottom{
+        flex-direction: column;
+        gap: 60px;
+    }
+    .new .content .bottom img{
+        object-fit: contain;
+    }
+    .evoloved .content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+}
+
+
+@media (max-width: 550px){
+    .watch .content .left h1{
+        font-size: 27px;
+    }
+    .motivate .right p{
+        width: auto;
+        font-size: 18px;
+    }
+    .series .left img{
+        max-width: 300px;
+    }
+    .evoloved .content .right{
+        padding: 20px;
+    }
+    .move .content{
+        padding-top: 60px;
+    }
+    .move .content h1{
+        font-size: 38px;
+    }
+    .move .content p{
+        font-size: 15px;
+    }
+}
+
+
+
+@media (max-width:720px) {
+    .watch .content .right .last{
+        width: 275px;;
+    }
+    .move{
+        text-align: center;
+    }
+}
+
+@media (min-width:993px) and (max-width:1180px){
+    .motivate .left img{
+        transform: translate(-234px, 33px);
+    }
+}

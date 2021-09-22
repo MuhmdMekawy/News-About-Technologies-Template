@@ -1,0 +1,320 @@
+body{
+    font-family: Roboto,sans-serif;
+}
+/* start nav-bar */
+.navbar-expand-lg .navbar-collapse{
+    justify-content: end;
+}
+.dropdown-menu[data-bs-popper]{
+    left: -122px;
+}
+/* end nav-bar */
+/* start header */
+.header {
+    background-color: #fafafa;
+}
+.header .content{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.header .content .left h1{
+    font-size: 100px;
+    font-weight: 800;
+}
+.header .content .left p{
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1.6;
+    max-width: 1000px;
+}
+button{
+    width: 200px;
+    height: 45px;
+    background-color: #5f9ea0;
+    border: none;
+    color: white;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #3d6566;
+
+}
+.header .content .right img{
+    width: 100%;
+}
+/* end header */
+/* start features */
+.features{
+    background-image: url("../images/background.jpeg");
+    background-size: cover;
+    background-position: right;
+}
+.features .content{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+}
+.features .left{
+    max-width: 580px;
+}
+.features .left img{
+    width: 100%;
+}
+.features .right{
+    padding-top: 130px;
+    min-width: 300px;
+} 
+.features .right img{
+    filter: invert(1);
+    transform: translate(5px, 0px);
+}
+.features .right h3{
+    padding-top: 20px;
+    transform: translate(-15px, 0px);
+}
+.features .right li{
+    font-size: 18px;
+    padding-top: 5px;
+}
+/* end features */
+/* start watch */
+.watch {
+    background-color: #fafafa;
+}
+.watch .content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.watch .content .left{
+    padding-top: 45px;
+    padding-bottom: 25px;
+}
+.watch .content .left h1{
+    background-color: #ece8e8;
+    padding: 20px 30px;
+    width: fit-content;
+    font-weight: 600;
+    font-size: 35px;
+}
+.watch .content .left p{
+    font-size: 25px;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.watch .content .right img{
+    max-width: 270px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s;
+}
+.watch .content .right img:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+.watch .content .right .last{
+    max-height: 230px;
+    object-fit: contain;
+    padding-bottom: 30px;
+}
+/* end watch */
+/* start motivate */
+.motivate{
+    background-color: #4d4d4d;
+    color: white;
+    overflow: hidden;
+}
+.motivate .content{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.motivate .left img{
+    width: 124%;
+    transform: translate(-234px, 0px);
+}
+.motivate .right{
+    padding-top: 40px;
+    padding-bottom: 75px;
+    transform: translate(-80px, 0px);
+}
+.motivate .right h3{
+    padding-top: 5px;
+    font-size: 35px;
+    font-weight: 800;
+}
+.motivate .right p{
+    font-size: 18px;
+    font-weight: 300;
+    width: 450px;
+}
+.motivate .right img{
+    width: 40px;
+    filter: invert(1);
+}
+/* end motivate */
+/* start sport watch section */
+.sport {
+    background-color: #fafafa;
+}
+.sport .content{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 30px;
+}
+.sport .content .right img{
+    width: 100%;
+}
+.sport .content .left {
+    padding-top: 20px;
+    color: #777;
+}
+.sport .content .left img{
+    width: 40px;
+    filter: opacity(0.5);
+    padding-bottom: 15px;
+}
+.sport .content .left h3{
+    font-size: 23px;    
+}
+/* end sport watch section */
+/* start watch */
+.series{
+    background-color: black;
+    color: white;
+}
+.series .content{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+.series .left img{
+    max-width: 480px;
+}
+.series .right{
+    text-align: center;
+    max-width: 500px;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+.series .right h1{
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+.series .right p{
+    line-height: 2.6;
+}
+.series .right img{
+    width: 170px;
+}
+/* end watch */
+/* start new section */
+.new .content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.new .content .top{
+    padding-top: 60px;
+    text-align: center;
+}
+.new .content .top h1{
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.new .content .top p{
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.new .content .bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+    background-color: #fafafa;
+}
+.new .content .bottom img{
+    max-height: 460px;
+    object-fit: cover;
+}
+/* end new section */
+/* start evoloved section */
+.evoloved {
+    background-color: gray;
+    color: white;
+}
+.evoloved .content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.evoloved .content .left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.evoloved .content .right{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+.evoloved .content .right img{
+    width: 60px;
+    filter: invert(1);
+    padding-bottom: 10px;
+}
+.evoloved .content .right h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.evoloved .content .right p{
+    max-width: 480px;
+}
+/* end evoloved section */
+/* start move */
+.move{
+    background-image: url("../images/34.jpeg");
+    background-size: cover;
+}
+.move .content{
+    background-color: #0000006e;
+    height: 100%;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.move .content img{
+    padding-top: 40px;
+    max-width: 200px;
+}
+.move .content h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+.move .content p{
+    max-width: 600px;
+    font-size: 17px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+/* end move*/
+/* start footer */
+.footer{
+    padding-top: 5px;
+    background-color: cadetblue;
+    padding-bottom: 1px;
+    text-align: center;
+    height: auto;
+}
+.footer h5{
+    font-size: 18px;
+    font-weight: 400;
+}
+/* end footer */
